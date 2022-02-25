@@ -7,15 +7,12 @@ let hiddenDockMod;
 
 function init () {
     activitiesIconMod = new activitiesIcon.activitiesIcon();
-    hiddenDockMod = new hiddenDock.Extension();
 }
 
 function enable () {
     activitiesIconMod.enable();
-    hiddenDockMod.enable();
 }
 
 function disable () {
     activitiesIconMod.disable();
-    hiddenDockMod.disable();
 }
