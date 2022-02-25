@@ -23,7 +23,7 @@ Requires:	gnome-shell-extension-common
 This is where we are going to put changes we want to make for the GNOME desktop.
 
 %prep
-%autosetup -n %{name}-main
+%autosetup -n risiGNOME-main
 
 %install
 mkdir -p %{buildroot}%{_datadir}/gnome-shell/extensions
