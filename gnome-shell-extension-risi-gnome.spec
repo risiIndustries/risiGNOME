@@ -11,8 +11,8 @@ Release:	1%{?dist}
 Summary:	Some of risiOS GNOME changes
 
 License:	GPLv2+
-URL:		https://extensions.gnome.org/extension/3193/blur-my-shell/
-Source0:	%{giturl}/archive/v%{version}.tar.gz#/%{gitname}-v%{version}.tar.gz
+URL:		https://github.com/risiOS/risiGNOME
+Source0:	https://github.com/risiOS/risiGNOME/archive/refs/heads/main.tar.xz
 
 BuildArch:	noarch
 BuildRequires:  glib2
@@ -22,7 +22,7 @@ Requires:	gnome-shell-extension-common
 This is where we are going to put changes we want to make for the GNOME desktop.
 
 %prep
-%autosetup
+%autosetup -n %{name}-main
 
 %install
 mkdir -p %{buildroot}%{_datadir}/gnome-shell/extensions
