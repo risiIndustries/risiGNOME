@@ -3,7 +3,7 @@
 %global gschemadir	%{_datadir}/glib-2.0/schemas
 %global gitname		risiGNOME
 %global giturl		https://github.com/risiOS/%{gitname}
-%global srcdir		%{_builddir}/%{gitname}-%{version}/src
+%global srcdir		%{_builddir}/%{gitname}-main
 
 Name:		gnome-shell-extension-risi-gnome
 Version:	1
@@ -24,6 +24,7 @@ This is where we are going to put changes we want to make for the GNOME desktop.
 
 %prep
 %autosetup -n risiGNOME-main
+rm gnome-shell-extension-risi-gnome.spec
 
 %install
 mkdir -p %{buildroot}%{_datadir}/gnome-shell/extensions
