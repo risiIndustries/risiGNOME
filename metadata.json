@@ -1,6 +1,6 @@
 {
   "name": "risiGNOME",
-  "description": "GNOME Shell modifications from risiOS. Credit to fthx and PRATAP-KUMAR for some code.",
+  "description": "GNOME Shell modifications from risiOS. Credit to PRATAP-KUMAR for some code.",
   "uuid": "risiGNOME@risi.io",
   "shell-version": [
     "41"
