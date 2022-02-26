@@ -1,6 +1,6 @@
 const ExtensionUtils = imports.misc.extensionUtils;
 const me = ExtensionUtils.getCurrentExtension()
-const { activitiesIcon, hiddenDock } = me.imports.mods;
+const { activitiesIcon } = me.imports.mods;
 
 let activitiesIconMod;
 let hiddenDockMod;
