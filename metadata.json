@@ -3,6 +3,6 @@
   "description": "GNOME Shell modifications from risiOS. Credit to PRATAP-KUMAR for some code.",
   "uuid": "risiGNOME@risi.io",
   "shell-version": [
-    "41"
+    "41", "42"
   ]
 }
