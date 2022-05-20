@@ -18,6 +18,7 @@ Source0:	https://github.com/risiOS/risiGNOME/archive/refs/heads/main.tar.gz
 BuildArch:	noarch
 BuildRequires:  glib2
 Requires:	gnome-shell-extension-common
+Requires:   adw-gtk-theme
 
 %description
 This is where we are going to put changes we want to make for the GNOME desktop.
