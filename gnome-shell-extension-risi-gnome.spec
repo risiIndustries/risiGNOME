@@ -6,8 +6,8 @@
 %global srcdir		%{_builddir}/%{gitname}-main
 
 Name:		gnome-shell-extension-risi-gnome
-Version:	1
-Release:	5%{?dist}
+Version:	1.0.1
+Release:	6%{?dist}
 Summary:	Some of risiOS GNOME changes
 
 License:	GPLv2+
@@ -19,6 +19,7 @@ BuildArch:	noarch
 BuildRequires:  glib2
 Requires:	gnome-shell-extension-common
 Requires:   adw-gtk-theme
+Requires: adwcolor
 
 %description
 This is where we are going to put changes we want to make for the GNOME desktop.
