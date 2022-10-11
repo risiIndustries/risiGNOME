@@ -1,8 +1,8 @@
 {
   "name": "risiGNOME",
-  "description": "GNOME Shell modifications from risiOS. Credit to PRATAP-KUMAR for some code.",
+  "description": "GNOME Shell modifications from risiOS.",
   "uuid": "risiGNOME@risi.io",
   "shell-version": [
-    "41", "42"
+    "41", "42", "43"
   ]
 }

@@ -1,21 +1,21 @@
 const ExtensionUtils = imports.misc.extensionUtils;
 const me = ExtensionUtils.getCurrentExtension()
-const { activitiesIcon, settingsSync } = me.imports.mods;
+const { activitiesIcon, risiTheme } = me.imports.mods;
 
 let activitiesIconMod;
 let settingsSyncMod;
 
 function init () {
     activitiesIconMod = new activitiesIcon.activitiesIcon();
-    settingsSyncMod = new settingsSync.settingsSync();
+    risiThemeMod = new risiTheme.risiTheme();
 }
 
 function enable () {
     activitiesIconMod.enable();
-    settingsSyncMod.enable();
+    risiThemeMod.enable();
 }
 
 function disable () {
     activitiesIconMod.disable();
-    settingsSyncMod.disable();
+    risiThemeMod.disable();
 }
