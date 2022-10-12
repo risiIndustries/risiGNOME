@@ -1,26 +1,32 @@
-REMOVE THIS LINE AND FIND AND REPLACE
+/* REMOVE THIS LINE AND FIND AND REPLACE
 ACCENT_HEX WITH A HEX CODE (EX: #ffffff)
 LINK_HEX WITH A HEX CODE (EX: #ffffff)
-ACCENT_RGBA WITH THE FIRST PART OF AN RGBA CODE [ex: "rgba(255, 255, 255,"]
+ACCENT_RGBA WITH THE FIRST PART OF AN RGBA CODE [ex: "rgba[255, 255, 255,"] */
 
 #LookingGlassDialog > #Toolbar .lg-toolbar-button:focus, .app-folder-dialog .folder-name-container .edit-folder-button:focus, .button:focus {
-  box-shadow: inset 0 0 0 2px ACCENT_RGBA 0.6); }
+  box-shadow: inset 0 0 0 2px ACCENT_RGBA 0.6) !important; }
 #LookingGlassDialog > #Toolbar .lg-toolbar-button:focus:hover, .app-folder-dialog .folder-name-container .edit-folder-button:focus:hover, .button:focus:hover {
-  box-shadow: inset 0 0 0 2px ACCENT_RGBA 0.7); }
+  box-shadow: inset 0 0 0 2px ACCENT_RGBA 0.7) !important; }
 #LookingGlassDialog > #Toolbar .lg-toolbar-button:focus:active, .app-folder-dialog .folder-name-container .edit-folder-button:focus:active, .button:focus:active {
-  box-shadow: inset 0 0 0 2px ACCENT_RGBA 0.7); }
+  box-shadow: inset 0 0 0 2px ACCENT_RGBA 0.7) !important; }
+.icon-button:focus {
+  box-shadow: inset 0 0 0 2px ACCENT_RGBA 0.6) !important; }
+.icon-button:focus:hover {
+  box-shadow: inset 0 0 0 2px ACCENT_RGBA 0.7) !important; }
+.icon-button:focus:active {
+  box-shadow: inset 0 0 0 2px ACCENT_RGBA 0.7) !important; }
 .modal-dialog .modal-dialog-linked-button:focus, .hotplug-notification-item:focus, .notification-banner .notification-button:focus {
-  box-shadow: inset 0 0 0 2px ACCENT_RGBA 0.6); }
+  box-shadow: inset 0 0 0 2px ACCENT_RGBA 0.6) !important; }
 .modal-dialog .modal-dialog-linked-button:focus:hover, .hotplug-notification-item:focus:hover, .notification-banner .notification-button:focus:hover {
-  box-shadow: inset 0 0 0 2px ACCENT_RGBA 0.7); }
+  box-shadow: inset 0 0 0 2px ACCENT_RGBA 0.7) !important; }
 .modal-dialog .modal-dialog-linked-button:focus:active, .hotplug-notification-item:focus:active, .notification-banner .notification-button:focus:active {
-  box-shadow: inset 0 0 0 2px ACCENT_RGBA 0.7); }
+  box-shadow: inset 0 0 0 2px ACCENT_RGBA 0.7) !important; }
 .screenshot-ui-show-pointer-button:focus, .screenshot-ui-type-button:focus {
-  box-shadow: inset 0 0 0 2px ACCENT_RGBA 0.6); }
+  box-shadow: inset 0 0 0 2px ACCENT_RGBA 0.6) !important; }
 .screenshot-ui-show-pointer-button:focus:hover, .screenshot-ui-type-button:focus:hover {
-  box-shadow: inset 0 0 0 2px ACCENT_RGBA 0.7); }
+  box-shadow: inset 0 0 0 2px ACCENT_RGBA 0.7) !important; }
 .screenshot-ui-show-pointer-button:focus:active, .screenshot-ui-type-button:focus:active {
-  box-shadow: inset 0 0 0 2px ACCENT_RGBA 0.7); }
+  box-shadow: inset 0 0 0 2px ACCENT_RGBA 0.7) !important; }
 
 /* WIDGETS */
 .shell-link {
@@ -28,155 +34,168 @@ ACCENT_RGBA WITH THE FIRST PART OF AN RGBA CODE [ex: "rgba(255, 255, 255,"]
 .shell-link:hover {
   color: LINK_HEX; }
 
-/* Entries */
 StEntry {
   selection-background-color: ACCENT_HEX;}
 StEntry:focus {
   border-color: ACCENT_HEX;}
+
+/* Slider */
 .slider {
   -barlevel-active-background-color: ACCENT_HEX;}
 
 .datemenu-today-button:focus {
-  box-shadow: inset 0 0 0 2px ACCENT_RGBA 0.6); }
+  box-shadow: inset 0 0 0 2px ACCENT_RGBA 0.6) !important; }
 .datemenu-today-button:focus:hover {
-  box-shadow: inset 0 0 0 2px ACCENT_RGBA 0.7); }
+  box-shadow: inset 0 0 0 2px ACCENT_RGBA 0.7) !important; }
 .datemenu-today-button:focus:active {
-  box-shadow: inset 0 0 0 2px ACCENT_RGBA 0.7); }
-
+  box-shadow: inset 0 0 0 2px ACCENT_RGBA 0.7) !important; }
 .calendar:focus {
-  box-shadow: inset 0 0 0 2px ACCENT_RGBA 0.6); }
+  box-shadow: inset 0 0 0 2px ACCENT_RGBA 0.6) !important; }
 .calendar:focus:hover {
-  box-shadow: inset 0 0 0 2px ACCENT_RGBA 0.7); }
+  box-shadow: inset 0 0 0 2px ACCENT_RGBA 0.7) !important; }
 .calendar:focus:active {
-  box-shadow: inset 0 0 0 2px ACCENT_RGBA 0.7); }
+  box-shadow: inset 0 0 0 2px ACCENT_RGBA 0.7) !important; }
 .calendar .calendar-day-base:focus {
   box-shadow: inset 0 0 0 2px ACCENT_RGBA 0.6); }
 .calendar .calendar-today {
   background-color: ACCENT_HEX;}
 .calendar .calendar-today:hover, .calendar .calendar-today:focus {
-  background-color: ACCENT_HEX; }
+  background-color: ACCENT_HEX;}
 .calendar .calendar-today:active, .calendar .calendar-today:selected {
-  background-color: ACCENT_HEX; }
+  background-color: ACCENT_HEX;}
 .calendar .calendar-today:active:hover, .calendar .calendar-today:active:focus, .calendar .calendar-today:selected:hover, .calendar .calendar-today:selected:focus {
-  background-color: ACCENT_HEX; }
-
+  background-color: ACCENT_HEX;}
 .events-button:focus {
-  box-shadow: inset 0 0 0 2px ACCENT_RGBA 0.6); }
+  box-shadow: inset 0 0 0 2px ACCENT_RGBA 0.6) !important; }
 .events-button:focus:hover {
-  box-shadow: inset 0 0 0 2px ACCENT_RGBA 0.7); }
+  box-shadow: inset 0 0 0 2px ACCENT_RGBA 0.7) !important; }
 .events-button:focus:active {
-  box-shadow: inset 0 0 0 2px ACCENT_RGBA 0.7); }
-
+  box-shadow: inset 0 0 0 2px ACCENT_RGBA 0.7) !important; }
 .world-clocks-button:focus {
-  box-shadow: inset 0 0 0 2px ACCENT_RGBA 0.6); }
+  box-shadow: inset 0 0 0 2px ACCENT_RGBA 0.6) !important; }
 .world-clocks-button:focus:hover {
-  box-shadow: inset 0 0 0 2px ACCENT_RGBA 0.7); }
+  box-shadow: inset 0 0 0 2px ACCENT_RGBA 0.7) !important; }
 .world-clocks-button:focus:active {
-  box-shadow: inset 0 0 0 2px ACCENT_RGBA 0.7); }
+  box-shadow: inset 0 0 0 2px ACCENT_RGBA 0.7) !important; }
 .weather-button:focus {
-  box-shadow: inset 0 0 0 2px ACCENT_RGBA 0.6); }
+  box-shadow: inset 0 0 0 2px ACCENT_RGBA 0.6) !important; }
 .weather-button:focus:hover {
-  box-shadow: inset 0 0 0 2px ACCENT_RGBA 0.7); }
+  box-shadow: inset 0 0 0 2px ACCENT_RGBA 0.7) !important; }
 .weather-button:focus:active {
-  box-shadow: inset 0 0 0 2px ACCENT_RGBA 0.7); }
-
+  box-shadow: inset 0 0 0 2px ACCENT_RGBA 0.7) !important; }
 .message-list-controls .dnd-button:focus {
   border-color: ACCENT_RGBA 0.6); }
 
 .message:focus {
-  box-shadow: inset 0 0 0 2px ACCENT_RGBA 0.6); }
+  box-shadow: inset 0 0 0 2px ACCENT_RGBA 0.6) !important; }
 .message:focus:hover {
-  box-shadow: inset 0 0 0 2px ACCENT_RGBA 0.7); }
+  box-shadow: inset 0 0 0 2px ACCENT_RGBA 0.7) !important; }
 .message:focus:active {
-  box-shadow: inset 0 0 0 2px ACCENT_RGBA 0.7); }
+  box-shadow: inset 0 0 0 2px ACCENT_RGBA 0.7) !important; }
 .url-highlighter {
   link-color: LINK_HEX; }
 
 .candidate-box:selected {
-  background-color: ACCENT_HEX; }
+  background-color: ACCENT_HEX;}
+
 .summary-source-counter {
-  background-color: ACCENT_HEX; }
+  background-color: ACCENT_HEX;}
+
 .audio-selection-device:active {
   background-color: ACCENT_HEX;}
 
-.nm-dialog-item:selected {
-  background-color: ACCENT_HEX;}
 .switcher-list .item-box:drop {
-  border: 2px solid ACCENT_RGBA 0.8);
-  background-color: ACCENT_RGBA 0.2); }
+  border: 2px solid ACCENT_RGBA 0.8);}
+
 .cycler-highlight {
   border: 5px solid ACCENT_HEX; }
 
 .screenshot-ui-window-selector-window:hover .screenshot-ui-window-selector-window-border {
   border-color: ACCENT_HEX; }
+
 .screenshot-ui-window-selector-window:checked .screenshot-ui-window-selector-window-border {
-  border-color: ACCENT_HEX;
-  background-color: ACCENT_RGBA 0.2); }
+  border-color: ACCENT_HEX; }
+
 .screenshot-ui-window-selector-window:checked .screenshot-ui-window-selector-check {
   background-color: ACCENT_HEX; }
 
-/* Activities Ripple */
-.ripple-box {
-  box-shadow: 0 0 2px 2px LINK_HEX;}
+.quick-toggle:checked {
+  background-color: ACCENT_HEX;}
+.quick-toggle:checked:focus {
+  box-shadow: inset 0 0 0 2px ACCENT_HEX; }
+.quick-toggle:checked:hover, .quick-toggle:checked:focus {
+  background-color: ACCENT_HEX;}
+.quick-toggle:checked:active {
+  background-color: ACCENT_HEX;}
+.quick-toggle:checked:insensitive {
+  background-color: ACCENT_RGBA 0.5);}
+
+.quick-slider .slider-bin:focus {
+  box-shadow: inset 0 0 0 2px ACCENT_RGBA 0.6) !important; }
+.quick-slider .slider-bin:focus:hover {
+  box-shadow: inset 0 0 0 2px ACCENT_RGBA 0.7) !important; }
+.quick-slider .slider-bin:focus:active {
+  box-shadow: inset 0 0 0 2px ACCENT_RGBA 0.7) !important; }
+
+.quick-toggle-menu .header .icon.active {
+  background-color: ACCENT_HEX; }
+
 .search-entry:focus {
-  border-color: ACCENT_HEX;
-}
+  border-color: ACCENT_HEX;}
+
 .list-search-result:drop, .search-provider-icon:drop {
-  border: 2px solid ACCENT_RGBA 0.8);
-  background-color: ACCENT_RGBA 0.2); }
+  border: 2px solid ACCENT_RGBA 0.8);}
 .dash-item-container .show-apps:drop .overview-icon {
-  border: 2px solid ACCENT_RGBA 0.8);
-  background-color: ACCENT_RGBA 0.2); }
-/* App Icons */
-.app-well-app:drop .overview-icon, .grid-search-result:drop .overview-icon {
-  border: 2px solid ACCENT_RGBA 0.8);
-  background-color: ACCENT_RGBA 0.2); }
+  border: 2px solid ACCENT_RGBA 0.8);}
 .app-well-app.app-folder:drop .overview-icon, .app-folder.grid-search-result:drop .overview-icon {
-  border: 2px solid ACCENT_RGBA 0.8);
-  background-color: ACCENT_RGBA 0.2);
-}
+  border: 2px solid ACCENT_RGBA 0.8);}
 .workspace-thumbnail-indicator {
   border: 3px solid ACCENT_HEX;}
 
 .ripple-pointer-location {
   box-shadow: 0 0 2px 2px LINK_HEX; }
+
 .pie-timer {
   -pie-border-color: ACCENT_HEX;}
+
 .magnifier-zoom-region {
   border: 2px solid ACCENT_HEX; }
+
 .select-area-rubberband {
   background-color: ACCENT_RGBA 0.3);
   border: 1px solid ACCENT_HEX; }
+
 /* Tiled window previews */
 .tile-preview {
   background-color: ACCENT_RGBA 0.5);
   border: 1px solid ACCENT_HEX; }
+
 .keyboard-key:focus {
   box-shadow: inset 0 0 0 2px ACCENT_RGBA 0.6); }
 .keyboard-key:focus:hover {
   box-shadow: inset 0 0 0 2px ACCENT_RGBA 0.7); }
 .keyboard-key:focus:active {
   box-shadow: inset 0 0 0 2px ACCENT_RGBA 0.7); }
-.keyboard-key.enter-key {
+.keyboard-key.default-key:latched {
+  border-color: ACCENT_HEX;
   background-color: ACCENT_HEX; }
+.keyboard-key.enter-key {
+  background-color: ACCENT_HEX;}
 .keyboard-key.enter-key:hover {
   background-color: ACCENT_HEX; }
 .keyboard-key.enter-key:active {
   background-color: ACCENT_HEX; }
 .keyboard-key.enter-key:checked {
   background-color: LINK_HEX; }
-
-.keyboard-subkeys {
+.keyboard-subkeys .keyboard-key:focus {
   box-shadow: inset 0 0 0 2px ACCENT_RGBA 0.6); }
 .keyboard-subkeys .keyboard-key:focus:hover {
   box-shadow: inset 0 0 0 2px ACCENT_RGBA 0.7); }
 .keyboard-subkeys .keyboard-key:focus:active {
   box-shadow: inset 0 0 0 2px ACCENT_RGBA 0.7); }
-
 .emoji-panel .keyboard-key:latched {
   border-color: ACCENT_HEX;
-  background-color: ACCENT_HEX;
-}
+  background-color: ACCENT_HEX; }
 
 .word-suggestions StButton:focus {
   box-shadow: inset 0 0 0 2px ACCENT_RGBA 0.6); }
@@ -184,35 +203,38 @@ StEntry:focus {
   box-shadow: inset 0 0 0 2px ACCENT_RGBA 0.7); }
 .word-suggestions StButton:focus:active {
   box-shadow: inset 0 0 0 2px ACCENT_RGBA 0.7); }
-
 .lg-dialog StEntry {
   selection-background-color: ACCENT_HEX;}
 
 .lg-dialog .shell-link {
   color: LINK_HEX; }
-.lg-dialog .shell-link:hover {
-  color: LINK_HEX; }
 .lg-dialog .shell-link:active {
-  color: LINK_HEX; }
+  color: ACCENT_HEX; }
+.lg-extension:focus {
+  box-shadow: inset 0 0 0 2px ACCENT_RGBA 0.6) !important; }
+.lg-extension:focus:hover {
+  box-shadow: inset 0 0 0 2px ACCENT_RGBA 0.7) !important; }
+.lg-extension:focus:active {
+  box-shadow: inset 0 0 0 2px ACCENT_RGBA 0.7) !important; }
 
-.unlock-dialog .modal-dialog-button:default {
-  background-color: ACCENT_HEX;}
+.login-dialog .modal-dialog-button:default,
+.unlock-dialog .modal-dialog-button:default {background-color: ACCENT_HEX;}
 .login-dialog .modal-dialog-button:default:focus,
 .unlock-dialog .modal-dialog-button:default:focus {
-  box-shadow: inset 0 0 0 2px ACCENT_RGBA 0.6); }
+  box-shadow: inset 0 0 0 2px LINK_HEX; }
 .login-dialog .modal-dialog-button:default:hover, .login-dialog .modal-dialog-button:default:focus,
 .unlock-dialog .modal-dialog-button:default:hover,
 .unlock-dialog .modal-dialog-button:default:focus {
-  background-color: ACCENT_HEX;}
+  background-color: ACCENT_HEX; }
 .login-dialog .modal-dialog-button:default:active,
 .unlock-dialog .modal-dialog-button:default:active {
-  background-color: ACCENT_HEX;}
+  background-color: ACCENT_HEX; }
 .login-dialog .modal-dialog-button:default:insensitive,
 .unlock-dialog .modal-dialog-button:default:insensitive {
   background-color: ACCENT_RGBA 0.5);}
+
 .login-dialog-auth-list-item:focus, .login-dialog-auth-list-item:selected {
   background-color: ACCENT_HEX;}
-
 .login-dialog-user-list:expanded .login-dialog-user-list-item:selected {
   background-color: ACCENT_HEX;}
 .login-dialog-user-list:expanded .login-dialog-user-list-item:logged-in {

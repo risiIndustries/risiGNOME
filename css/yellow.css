@@ -1,21 +1,27 @@
 #LookingGlassDialog > #Toolbar .lg-toolbar-button:focus, .app-folder-dialog .folder-name-container .edit-folder-button:focus, .button:focus {
-  box-shadow: inset 0 0 0 2px rgba(245, 194, 17, 0.6); }
+  box-shadow: inset 0 0 0 2px rgba(245, 194, 17, 0.6) !important; }
 #LookingGlassDialog > #Toolbar .lg-toolbar-button:focus:hover, .app-folder-dialog .folder-name-container .edit-folder-button:focus:hover, .button:focus:hover {
-  box-shadow: inset 0 0 0 2px rgba(245, 194, 17, 0.7); }
+  box-shadow: inset 0 0 0 2px rgba(245, 194, 17, 0.7) !important; }
 #LookingGlassDialog > #Toolbar .lg-toolbar-button:focus:active, .app-folder-dialog .folder-name-container .edit-folder-button:focus:active, .button:focus:active {
-  box-shadow: inset 0 0 0 2px rgba(245, 194, 17, 0.7); }
+  box-shadow: inset 0 0 0 2px rgba(245, 194, 17, 0.7) !important; }
+.icon-button:focus {
+  box-shadow: inset 0 0 0 2px rgba(245, 194, 17, 0.6) !important; }
+.icon-button:focus:hover {
+  box-shadow: inset 0 0 0 2px rgba(245, 194, 17, 0.7) !important; }
+.icon-button:focus:active {
+  box-shadow: inset 0 0 0 2px rgba(245, 194, 17, 0.7) !important; }
 .modal-dialog .modal-dialog-linked-button:focus, .hotplug-notification-item:focus, .notification-banner .notification-button:focus {
-  box-shadow: inset 0 0 0 2px rgba(245, 194, 17, 0.6); }
+  box-shadow: inset 0 0 0 2px rgba(245, 194, 17, 0.6) !important; }
 .modal-dialog .modal-dialog-linked-button:focus:hover, .hotplug-notification-item:focus:hover, .notification-banner .notification-button:focus:hover {
-  box-shadow: inset 0 0 0 2px rgba(245, 194, 17, 0.7); }
+  box-shadow: inset 0 0 0 2px rgba(245, 194, 17, 0.7) !important; }
 .modal-dialog .modal-dialog-linked-button:focus:active, .hotplug-notification-item:focus:active, .notification-banner .notification-button:focus:active {
-  box-shadow: inset 0 0 0 2px rgba(245, 194, 17, 0.7); }
+  box-shadow: inset 0 0 0 2px rgba(245, 194, 17, 0.7) !important; }
 .screenshot-ui-show-pointer-button:focus, .screenshot-ui-type-button:focus {
-  box-shadow: inset 0 0 0 2px rgba(245, 194, 17, 0.6); }
+  box-shadow: inset 0 0 0 2px rgba(245, 194, 17, 0.6) !important; }
 .screenshot-ui-show-pointer-button:focus:hover, .screenshot-ui-type-button:focus:hover {
-  box-shadow: inset 0 0 0 2px rgba(245, 194, 17, 0.7); }
+  box-shadow: inset 0 0 0 2px rgba(245, 194, 17, 0.7) !important; }
 .screenshot-ui-show-pointer-button:focus:active, .screenshot-ui-type-button:focus:active {
-  box-shadow: inset 0 0 0 2px rgba(245, 194, 17, 0.7); }
+  box-shadow: inset 0 0 0 2px rgba(245, 194, 17, 0.7) !important; }
 
 /* WIDGETS */
 .shell-link {
@@ -23,155 +29,168 @@
 .shell-link:hover {
   color: #ffd646; }
 
-/* Entries */
 StEntry {
   selection-background-color: #f5c211;}
 StEntry:focus {
   border-color: #f5c211;}
+
+/* Slider */
 .slider {
   -barlevel-active-background-color: #f5c211;}
 
 .datemenu-today-button:focus {
-  box-shadow: inset 0 0 0 2px rgba(245, 194, 17, 0.6); }
+  box-shadow: inset 0 0 0 2px rgba(245, 194, 17, 0.6) !important; }
 .datemenu-today-button:focus:hover {
-  box-shadow: inset 0 0 0 2px rgba(245, 194, 17, 0.7); }
+  box-shadow: inset 0 0 0 2px rgba(245, 194, 17, 0.7) !important; }
 .datemenu-today-button:focus:active {
-  box-shadow: inset 0 0 0 2px rgba(245, 194, 17, 0.7); }
-
+  box-shadow: inset 0 0 0 2px rgba(245, 194, 17, 0.7) !important; }
 .calendar:focus {
-  box-shadow: inset 0 0 0 2px rgba(245, 194, 17, 0.6); }
+  box-shadow: inset 0 0 0 2px rgba(245, 194, 17, 0.6) !important; }
 .calendar:focus:hover {
-  box-shadow: inset 0 0 0 2px rgba(245, 194, 17, 0.7); }
+  box-shadow: inset 0 0 0 2px rgba(245, 194, 17, 0.7) !important; }
 .calendar:focus:active {
-  box-shadow: inset 0 0 0 2px rgba(245, 194, 17, 0.7); }
+  box-shadow: inset 0 0 0 2px rgba(245, 194, 17, 0.7) !important; }
 .calendar .calendar-day-base:focus {
   box-shadow: inset 0 0 0 2px rgba(245, 194, 17, 0.6); }
 .calendar .calendar-today {
   background-color: #f5c211;}
 .calendar .calendar-today:hover, .calendar .calendar-today:focus {
-  background-color: #f5c211; }
+  background-color: #f5c211;}
 .calendar .calendar-today:active, .calendar .calendar-today:selected {
-  background-color: #f5c211; }
+  background-color: #f5c211;}
 .calendar .calendar-today:active:hover, .calendar .calendar-today:active:focus, .calendar .calendar-today:selected:hover, .calendar .calendar-today:selected:focus {
-  background-color: #f5c211; }
-
+  background-color: #f5c211;}
 .events-button:focus {
-  box-shadow: inset 0 0 0 2px rgba(245, 194, 17, 0.6); }
+  box-shadow: inset 0 0 0 2px rgba(245, 194, 17, 0.6) !important; }
 .events-button:focus:hover {
-  box-shadow: inset 0 0 0 2px rgba(245, 194, 17, 0.7); }
+  box-shadow: inset 0 0 0 2px rgba(245, 194, 17, 0.7) !important; }
 .events-button:focus:active {
-  box-shadow: inset 0 0 0 2px rgba(245, 194, 17, 0.7); }
-
+  box-shadow: inset 0 0 0 2px rgba(245, 194, 17, 0.7) !important; }
 .world-clocks-button:focus {
-  box-shadow: inset 0 0 0 2px rgba(245, 194, 17, 0.6); }
+  box-shadow: inset 0 0 0 2px rgba(245, 194, 17, 0.6) !important; }
 .world-clocks-button:focus:hover {
-  box-shadow: inset 0 0 0 2px rgba(245, 194, 17, 0.7); }
+  box-shadow: inset 0 0 0 2px rgba(245, 194, 17, 0.7) !important; }
 .world-clocks-button:focus:active {
-  box-shadow: inset 0 0 0 2px rgba(245, 194, 17, 0.7); }
+  box-shadow: inset 0 0 0 2px rgba(245, 194, 17, 0.7) !important; }
 .weather-button:focus {
-  box-shadow: inset 0 0 0 2px rgba(245, 194, 17, 0.6); }
+  box-shadow: inset 0 0 0 2px rgba(245, 194, 17, 0.6) !important; }
 .weather-button:focus:hover {
-  box-shadow: inset 0 0 0 2px rgba(245, 194, 17, 0.7); }
+  box-shadow: inset 0 0 0 2px rgba(245, 194, 17, 0.7) !important; }
 .weather-button:focus:active {
-  box-shadow: inset 0 0 0 2px rgba(245, 194, 17, 0.7); }
-
+  box-shadow: inset 0 0 0 2px rgba(245, 194, 17, 0.7) !important; }
 .message-list-controls .dnd-button:focus {
   border-color: rgba(245, 194, 17, 0.6); }
 
 .message:focus {
-  box-shadow: inset 0 0 0 2px rgba(245, 194, 17, 0.6); }
+  box-shadow: inset 0 0 0 2px rgba(245, 194, 17, 0.6) !important; }
 .message:focus:hover {
-  box-shadow: inset 0 0 0 2px rgba(245, 194, 17, 0.7); }
+  box-shadow: inset 0 0 0 2px rgba(245, 194, 17, 0.7) !important; }
 .message:focus:active {
-  box-shadow: inset 0 0 0 2px rgba(245, 194, 17, 0.7); }
+  box-shadow: inset 0 0 0 2px rgba(245, 194, 17, 0.7) !important; }
 .url-highlighter {
   link-color: #ffd646; }
 
 .candidate-box:selected {
-  background-color: #f5c211; }
+  background-color: #f5c211;}
+
 .summary-source-counter {
-  background-color: #f5c211; }
+  background-color: #f5c211;}
+
 .audio-selection-device:active {
   background-color: #f5c211;}
 
-.nm-dialog-item:selected {
-  background-color: #f5c211;}
 .switcher-list .item-box:drop {
-  border: 2px solid rgba(245, 194, 17, 0.8);
-  background-color: rgba(245, 194, 17, 0.2); }
+  border: 2px solid rgba(245, 194, 17, 0.8);}
+
 .cycler-highlight {
   border: 5px solid #f5c211; }
 
 .screenshot-ui-window-selector-window:hover .screenshot-ui-window-selector-window-border {
   border-color: #f5c211; }
+
 .screenshot-ui-window-selector-window:checked .screenshot-ui-window-selector-window-border {
-  border-color: #f5c211;
-  background-color: rgba(245, 194, 17, 0.2); }
+  border-color: #f5c211; }
+
 .screenshot-ui-window-selector-window:checked .screenshot-ui-window-selector-check {
   background-color: #f5c211; }
 
-/* Activities Ripple */
-.ripple-box {
-  box-shadow: 0 0 2px 2px #ffd646;}
+.quick-toggle:checked {
+  background-color: #f5c211;}
+.quick-toggle:checked:focus {
+  box-shadow: inset 0 0 0 2px #f5c211; }
+.quick-toggle:checked:hover, .quick-toggle:checked:focus {
+  background-color: #f5c211;}
+.quick-toggle:checked:active {
+  background-color: #f5c211;}
+.quick-toggle:checked:insensitive {
+  background-color: rgba(245, 194, 17, 0.5);}
+
+.quick-slider .slider-bin:focus {
+  box-shadow: inset 0 0 0 2px rgba(245, 194, 17, 0.6) !important; }
+.quick-slider .slider-bin:focus:hover {
+  box-shadow: inset 0 0 0 2px rgba(245, 194, 17, 0.7) !important; }
+.quick-slider .slider-bin:focus:active {
+  box-shadow: inset 0 0 0 2px rgba(245, 194, 17, 0.7) !important; }
+
+.quick-toggle-menu .header .icon.active {
+  background-color: #f5c211; }
+
 .search-entry:focus {
-  border-color: #f5c211;
-}
+  border-color: #f5c211;}
+
 .list-search-result:drop, .search-provider-icon:drop {
-  border: 2px solid rgba(245, 194, 17, 0.8);
-  background-color: rgba(245, 194, 17, 0.2); }
+  border: 2px solid rgba(245, 194, 17, 0.8);}
 .dash-item-container .show-apps:drop .overview-icon {
-  border: 2px solid rgba(245, 194, 17, 0.8);
-  background-color: rgba(245, 194, 17, 0.2); }
-/* App Icons */
-.app-well-app:drop .overview-icon, .grid-search-result:drop .overview-icon {
-  border: 2px solid rgba(245, 194, 17, 0.8);
-  background-color: rgba(245, 194, 17, 0.2); }
+  border: 2px solid rgba(245, 194, 17, 0.8);}
 .app-well-app.app-folder:drop .overview-icon, .app-folder.grid-search-result:drop .overview-icon {
-  border: 2px solid rgba(245, 194, 17, 0.8);
-  background-color: rgba(245, 194, 17, 0.2);
-}
+  border: 2px solid rgba(245, 194, 17, 0.8);}
 .workspace-thumbnail-indicator {
   border: 3px solid #f5c211;}
 
 .ripple-pointer-location {
   box-shadow: 0 0 2px 2px #ffd646; }
+
 .pie-timer {
   -pie-border-color: #f5c211;}
+
 .magnifier-zoom-region {
   border: 2px solid #f5c211; }
+
 .select-area-rubberband {
   background-color: rgba(245, 194, 17, 0.3);
   border: 1px solid #f5c211; }
+
 /* Tiled window previews */
 .tile-preview {
   background-color: rgba(245, 194, 17, 0.5);
   border: 1px solid #f5c211; }
+
 .keyboard-key:focus {
   box-shadow: inset 0 0 0 2px rgba(245, 194, 17, 0.6); }
 .keyboard-key:focus:hover {
   box-shadow: inset 0 0 0 2px rgba(245, 194, 17, 0.7); }
 .keyboard-key:focus:active {
   box-shadow: inset 0 0 0 2px rgba(245, 194, 17, 0.7); }
-.keyboard-key.enter-key {
+.keyboard-key.default-key:latched {
+  border-color: #f5c211;
   background-color: #f5c211; }
+.keyboard-key.enter-key {
+  background-color: #f5c211;}
 .keyboard-key.enter-key:hover {
   background-color: #f5c211; }
 .keyboard-key.enter-key:active {
   background-color: #f5c211; }
 .keyboard-key.enter-key:checked {
   background-color: #ffd646; }
-
-.keyboard-subkeys {
+.keyboard-subkeys .keyboard-key:focus {
   box-shadow: inset 0 0 0 2px rgba(245, 194, 17, 0.6); }
 .keyboard-subkeys .keyboard-key:focus:hover {
   box-shadow: inset 0 0 0 2px rgba(245, 194, 17, 0.7); }
 .keyboard-subkeys .keyboard-key:focus:active {
   box-shadow: inset 0 0 0 2px rgba(245, 194, 17, 0.7); }
-
 .emoji-panel .keyboard-key:latched {
   border-color: #f5c211;
-  background-color: #f5c211;
-}
+  background-color: #f5c211; }
 
 .word-suggestions StButton:focus {
   box-shadow: inset 0 0 0 2px rgba(245, 194, 17, 0.6); }
@@ -179,35 +198,38 @@ StEntry:focus {
   box-shadow: inset 0 0 0 2px rgba(245, 194, 17, 0.7); }
 .word-suggestions StButton:focus:active {
   box-shadow: inset 0 0 0 2px rgba(245, 194, 17, 0.7); }
-
 .lg-dialog StEntry {
   selection-background-color: #f5c211;}
 
 .lg-dialog .shell-link {
   color: #ffd646; }
-.lg-dialog .shell-link:hover {
-  color: #ffd646; }
 .lg-dialog .shell-link:active {
-  color: #ffd646; }
+  color: #f5c211; }
+.lg-extension:focus {
+  box-shadow: inset 0 0 0 2px rgba(245, 194, 17, 0.6) !important; }
+.lg-extension:focus:hover {
+  box-shadow: inset 0 0 0 2px rgba(245, 194, 17, 0.7) !important; }
+.lg-extension:focus:active {
+  box-shadow: inset 0 0 0 2px rgba(245, 194, 17, 0.7) !important; }
 
-.unlock-dialog .modal-dialog-button:default {
-  background-color: #f5c211;}
+.login-dialog .modal-dialog-button:default,
+.unlock-dialog .modal-dialog-button:default {background-color: #f5c211;}
 .login-dialog .modal-dialog-button:default:focus,
 .unlock-dialog .modal-dialog-button:default:focus {
-  box-shadow: inset 0 0 0 2px rgba(245, 194, 17, 0.6); }
+  box-shadow: inset 0 0 0 2px #ffd646; }
 .login-dialog .modal-dialog-button:default:hover, .login-dialog .modal-dialog-button:default:focus,
 .unlock-dialog .modal-dialog-button:default:hover,
 .unlock-dialog .modal-dialog-button:default:focus {
-  background-color: #f5c211;}
+  background-color: #f5c211; }
 .login-dialog .modal-dialog-button:default:active,
 .unlock-dialog .modal-dialog-button:default:active {
-  background-color: #f5c211;}
+  background-color: #f5c211; }
 .login-dialog .modal-dialog-button:default:insensitive,
 .unlock-dialog .modal-dialog-button:default:insensitive {
   background-color: rgba(245, 194, 17, 0.5);}
+
 .login-dialog-auth-list-item:focus, .login-dialog-auth-list-item:selected {
   background-color: #f5c211;}
-
 .login-dialog-user-list:expanded .login-dialog-user-list-item:selected {
   background-color: #f5c211;}
 .login-dialog-user-list:expanded .login-dialog-user-list-item:logged-in {
