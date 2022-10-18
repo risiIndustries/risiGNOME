@@ -7,7 +7,7 @@
 
 Name:		gnome-shell-extension-risi-gnome
 Version:	43
-Release:	10%{?dist}
+Release:	11%{?dist}
 Summary:	Some of risiOS GNOME changes
 
 License:	GPLv2+
