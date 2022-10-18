@@ -1,3 +1,15 @@
+.check-box:focus StBin {
+  background-image: url("file:///usr/share/gnome-shell/extensions/risiGNOME@risi.io/themes/brown/checkbox-off-focused.svg"); }
+
+.check-box:checked StBin {
+  background-image: url("file:///usr/share/gnome-shell/extensions/risiGNOME@risi.io/themes/brown/checkbox.svg"); }
+
+.check-box:focus:checked StBin {
+  background-image: url("file:///usr/share/gnome-shell/extensions/risiGNOME@risi.io/themes/brown/checkbox-focused.svg"); }
+
+.toggle-switch:checked {
+  background-image: url("file:///usr/share/gnome-shell/extensions/risiGNOME@risi.io/themes/brown/toggle-on.svg"); }
+
 #LookingGlassDialog > #Toolbar .lg-toolbar-button:focus, .app-folder-dialog .folder-name-container .edit-folder-button:focus, .button:focus {
   box-shadow: inset 0 0 0 2px rgba(152, 106, 68, 0.6) !important; }
 #LookingGlassDialog > #Toolbar .lg-toolbar-button:focus:hover, .app-folder-dialog .folder-name-container .edit-folder-button:focus:hover, .button:focus:hover {

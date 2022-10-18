@@ -19,14 +19,14 @@ var risiTheme = class {
         if (this.rtheme.get_string("theme-name") == "risi") {
             if (accents.includes(this.rtheme.get_string("variant-name"))) {
                 Main.setThemeStylesheet(
-                    `/usr/share/gnome-shell/extensions/risiGNOME@risi.io/css/${this.rtheme.get_string("variant-name")}.css`
+                    `/usr/share/gnome-shell/extensions/risiGNOME@risi.io/themes/${this.rtheme.get_string("variant-name")}/gnome-shell.css`
                 )
             } else if (this.rtheme.get_string("variant-name") != "blue") {
-                Main.setThemeStylesheet("/usr/share/gnome-shell/extensions/risiGNOME@risi.io/css/main.css")
+                Main.setThemeStylesheet("/usr/share/gnome-shell/extensions/risiGNOME@risi.io/themes/main/gnome-shell.css")
             }
         }
         else {
-            Main.setThemeStylesheet("/usr/share/gnome-shell/extensions/risiGNOME@risi.io/css/main.css")
+            Main.setThemeStylesheet("/usr/share/gnome-shell/extensions/risiGNOME@risi.io/themes/main/gnome-shell.css")
         }
         Main.loadTheme();
     };
