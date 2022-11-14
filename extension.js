@@ -7,7 +7,7 @@ let settingsSyncMod;
 
 function init () {
     activitiesIconMod = new activitiesIcon.activitiesIcon();
-    risiThemeMod = new risiTheme.risiTheme();
+    risiThemeMod = new risiTheme.rTheme();
 }
 
 function enable () {
