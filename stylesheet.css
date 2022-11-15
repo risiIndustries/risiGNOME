@@ -1,42 +1,42 @@
-/* Add your custom extension styling here */
-#dash .dash-background {
-    background-color: transparent;}
+/*!* Add your custom extension styling here *!*/
+/*#dash .dash-background {*/
+/*    background-color: transparent;}*/
 
-#panel {
-    background-color: #292929;}
-#panel.unlock-screen, #panel.login-screen, #panel:overview {
-    background-color: transparent;}
+/*#panel {*/
+/*    background-color: #292929;}*/
+/*#panel.unlock-screen, #panel.login-screen, #panel:overview {*/
+/*    background-color: transparent;}*/
 
-.dash-label {
-    background-color: #292929;}
+/*.dash-label {*/
+/*    background-color: #292929;}*/
 
-#overviewGroup {
-    background-color: #292929; }
+/*#overviewGroup {*/
+/*    background-color: #292929; }*/
 
-.workspace-animation {
-    background-color: #292929; }
+/*.workspace-animation {*/
+/*    background-color: #292929; }*/
 
-.screenshot-ui-panel, .workspace-switcher, .switcher-list, .resize-popup, .osd-monitor-label, .osd-window {
-    background-color: #292929;}
-.screenshot-ui-window-selector {
-    background-color: #292929; }
-.screenshot-ui-tooltip {
-    background-color: #292929;}
+/*.screenshot-ui-panel, .workspace-switcher, .switcher-list, .resize-popup, .osd-monitor-label, .osd-window {*/
+/*    background-color: #292929;}*/
+/*.screenshot-ui-window-selector {*/
+/*    background-color: #292929; }*/
+/*.screenshot-ui-tooltip {*/
+/*    background-color: #292929;}*/
 
-.nm-dialog-scroll-view {
-    background-color: #292929; }
+/*.nm-dialog-scroll-view {*/
+/*    background-color: #292929; }*/
 
-#keyboard {
-    background-color: #292929; }
-.keyboard-key.shift-key-uppercase {
-    color: #292929; }
-.keyboard-subkeys {
-    -arrow-background-color: #292929;}
+/*#keyboard {*/
+/*    background-color: #292929; }*/
+/*.keyboard-key.shift-key-uppercase {*/
+/*    color: #292929; }*/
+/*.keyboard-subkeys {*/
+/*    -arrow-background-color: #292929;}*/
 
-#LookingGlassDialog {
-    background-color: #292929;}
-#LookingGlassPropertyInspector {
-    background: #292929;}
+/*#LookingGlassDialog {*/
+/*    background-color: #292929;}*/
+/*#LookingGlassPropertyInspector {*/
+/*    background: #292929;}*/
 
-#lockDialogGroup {
-    background-color: #292929;}
+/*#lockDialogGroup {*/
+/*    background-color: #292929;}*/
