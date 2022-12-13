@@ -8,7 +8,7 @@ var rTheme = class {
     };
 
     enable () {
-        this.rtheme.connect("changed", function (setting, key) {this.apply_theme()})
+        this.rtheme.connect("changed", (setting, key) => {this.apply_theme()})
     };
 
     disable () {};
