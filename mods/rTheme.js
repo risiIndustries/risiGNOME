@@ -1,5 +1,6 @@
 const { Gio, GLib } = imports.gi;
 const Main = imports.ui.main;
+const Mainloop = imports.mainloop;
 
 var rTheme = class {
     constructor () {
@@ -8,7 +9,9 @@ var rTheme = class {
     };
 
     enable () {
-        this.rtheme.connect("changed", (setting, key) => {this.apply_theme()})
+        this.rtheme.connect("changed", (setting, key) => {
+            Mainloop.timeout_add(1000, () => this.apply_theme())
+        })
     };
 
     disable () {};
