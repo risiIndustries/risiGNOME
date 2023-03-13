@@ -6,8 +6,8 @@
 %global srcdir		%{_builddir}/%{gitname}-main
 
 Name:		gnome-shell-extension-risi-gnome
-Version:	43
-Release:	16%{?dist}
+Version:	44
+Release:	17%{?dist}
 Summary:	Some of risiOS GNOME changes
 
 License:	GPLv2+
