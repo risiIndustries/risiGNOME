@@ -7,7 +7,7 @@
 
 Name:		gnome-shell-extension-risi-gnome
 Version:	44
-Release:	17%{?dist}
+Release:	18%{?dist}
 Summary:	Some of risiOS GNOME changes
 
 License:	GPLv2+
@@ -19,7 +19,6 @@ BuildArch:	noarch
 BuildRequires:  glib2
 Requires:	gnome-shell-extension-common
 Requires:   adw-gtk-theme
-Requires: adwcolor
 
 %description
 This is where we are going to put changes we want to make for the GNOME desktop.
